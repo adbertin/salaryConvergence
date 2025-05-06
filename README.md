@@ -1,2 +1,2 @@
 # salaryConvergence
-ML Prohect
+ML Project
