@@ -1,0 +1,36 @@
+﻿,Tourism,,,Immigration,Agriculture ,,Regulation,Education
+Year,"Total employment in tourism industries per 1,000 people","Air transport, passengers carried (person)",Ratio of inbound to outbound tourist trips,Total number of international immigrants,"Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)",Share of workers informally employed in non-agricultural workplaces,National Minimum Wage (in US dollars),"School enrollment, secondary (% gross)"
+2000,,877833,2.855643,310946,8303.736,,206.2,61.48722839
+2001,,737895,3.132964,,8355.092,,218.8,65.94257355
+2002,,675146,3.0576923,,7893.0195,,215.6,67.3254776
+2003,,749885,3.3217158,,8648.957,,214.6,
+2004,,901402,3.4188235,,8979.183,,216.9,79.978302
+2005,,953217,3.4476385,358398,8417.484,,227.9,81.37133026
+2006,,943143,3.556701,,9773.482,,239.9,88.22255707
+2007,,1017054,3.4315424,,10298.694,,261.8,89.66104889
+2008,,1023665,3.9564395,,10573.204,,297.4,90.47566986
+2009,,932581,3.3212435,,11838.227,,298,96.777771
+2010,,1697893.9,3.1722054,405779,11039.734,,355.4,99.95384979
+2011,,1829515,3.0571828,,10439.756,32.91,392.6,102.4320297
+2012,,1770111.4,3.0310478,,9727.334,35.44,419.5,105.1989594
+2013,31.911947,1498996,3.0734177,,9157.057,37.36,448,110.994751
+2014,31.025295,1427414,3.1666667,,8984.33,37.06,495.9,115.6500092
+2015,32.50314,1525922,2.8944504,411697,8667.67,37.51,535.9,117.9162827
+2016,31.31322,1572605,2.823359,,9088.342,35.82,538.1,119.9945602
+2017,31.609203,1822880,2.573913,,8973.961,35.47,516.5,123.8349915
+2018,32.474316,1950049,2.7961075,,8751.847,36.18,520.3,128.4750061
+2019,34.183403,2033146,2.7224631,,8673.157,37.06,526.4,137.0163269
+2020,25.326397,455830.6,3.1234567,520729,8847.434,34.9,541.9,135.9000397
+2021,29.74028,669298,2.2908163,,9413.459,37,,141.202713
+2022,33.295845,,2.5155246,,9921.462,35.91,,133.1591644
+2023,,,,,,,,
+2024,,,,628404,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Data Explanation,,,,,,,,
+Ratio of inbound to outbound tourist trips,Tourist trips refer to the number of trips made by individuals traveling abroad and staying overnight. A country witha ratio greater than one has more incoming than outgoing tourists (i.e. has more visitors than locals leaving).,,,,,,,
+Source for Minimum wage,https://countryeconomy.com/national-minimum-wage/costa-rica?year=2020,,,,,,,
+"Source for School enrollment, secondary (% gross)",https://data.worldbank.org/indicator/SE.SEC.ENRR?end=2022&locations=CR&name_desc=false&start=2000,,,,,,,
