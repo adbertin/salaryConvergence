@@ -11,7 +11,7 @@ Our analysis is conducted in two parts:
 
 Our work involves detailed country-level analysis, model building, and statistical evaluation. We compare our enhanced predictions with Dr. Flow’s original baseline using error metrics such as MSE, and visualize wage convergence trends. The goal is to contribute new insights into the mechanisms driving wage inequality and offer a reproducible methodology for future comparative economic research.
 
-All code, data, and visualizations are included in this repository. A video walkthrough of our approach is available below. 
+All code, data and visualizations are included in this repository. A video walkthrough of our approach is available below. 
 
 ## Table of Contents
 1. How to Run through the Project
@@ -53,7 +53,7 @@ Finally, all extra material that you can find on our github repository was provi
 
 ### Part 1: Benchmark Estimation
 
-In Part 1 of the project, we aimed to improve the baseline model developed by Dr. Cashmere Flow by enhancing the estimation of PPP-adjusted wages using macroeconomic and institutional variables.For this part, we worked on Costa Rica, Colombia, Greece, Mexico, and Luxembourg. We thought of different variableas as hypotheses, by performing a country-level analysis for each country of the basket. Before coding, we had to verify that each series runs cleanly from about 2000–2020, check its coverage and quality, as inidcated.    
+In Part 1 of the project, we aimed to improve the baseline model developed by Dr. Cashmere Flow by enhancing the estimation of PPP-adjusted wages using macroeconomic and institutional variables.For this part, we worked on Costa Rica, Colombia, Greece, Mexico, and Luxembourg. We thought of different variables as hypotheses, by performing a country-level analysis for each country of the basket. Before adding our new variables to the existing code, we had to verify that each series ran cleanly from 2000–2020, check its coverage and quality, as indicated.    
 
 
 Following the Country Level Analysis for ach country, the original model we were provided with was refined through Ordinary Least Squares (OLS) regression, comparing the original estimated wages to the true OECD benchmark using relevant context-specific variables.
