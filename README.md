@@ -15,7 +15,7 @@ All code, data, and visualizations are included in this repository. A video walk
 
 ## Table of Contents
 1. [How to Run through the Project](#HowtoRunthroughtheProject)
-2. [How to Use the Project](#HowtoUsetheProject)
+2. [How to Use the Project](https://github.com/adbertin/salaryConvergence/edit/main/README.md#how-to-use-the-project))
 3. [Part 1]
 4. Part 2
 5. Future recommendations
