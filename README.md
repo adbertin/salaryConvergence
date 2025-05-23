@@ -37,14 +37,7 @@ For additional information regarding the data we found (e.g. sources), or about 
 ### Conclusion 
 ### Future recommendations
 ## Credits
-## References (add where we found the data and link to tables)
-- [Silva, A. R. C., Pavez, L. R. D., & Martínez-Zarzoso, I. (2023). The impact of migration on wages in Costa Rica. Migration Studies, 11(1), 23–51]( https://doi.org/10.1093/migration/mnac041)
-- [Here’s a **GitHub-friendly reference list** formatted in Markdown using the `[title](link)` format for your `README.md`:
-
----
-
-### 📚 References
-
+## References
 * [Silva, A. R. C., Pavez, L. R. D., & Martínez-Zarzoso, I. (2023). The impact of migration on wages in Costa Rica. *Migration Studies*, 11(1), 23–51.](https://doi.org/10.1093/migration/mnac041)
 * [Garita, J. (2021). Minimum wages and firm dynamics: evidence from Costa Rica’s Occupation-Based System.](https://jggarita.github.io/files/MW_firmdynamics.pdf)
 * [Gindling, T. H., & Terrell, K. (2005). The Effect of Minimum Wages on Actual Wages in Formal and Informal Sectors in Costa Rica. *World Development*, 33, 1905–1921.](http://dx.doi.org/10.1016/j.worlddev.2005.04.017)
