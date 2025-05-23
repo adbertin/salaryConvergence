@@ -52,7 +52,24 @@ Results of Part 1 were stored in this [updated file](https://github.com/adbertin
 Finally, all extra material that you can find on our github repository was provided for us by Noé Notter. 
 
 ### Part 1: Benchmark Estimation
-![Luxembourg](https://drive.google.com/file/d/1VxjZL6CVDdMCILiqZa6W1Yem5PlIpWHf/view?usp=drive_link)
+
+In Part 1 of the project, we aimed to improve the baseline model developed by Dr. Cashmere Flow by enhancing the estimation of PPP-adjusted wages using macroeconomic and institutional variables.For this part, we worked on Costa Rica, Colombia, Greece, Mexico, and Luxembourg. We thought of different variableas as hypotheses, by performing a country-level analysis for each country of the basket. Before coding, we had to verify that each series runs cleanly from about 2000–2020, check its coverage and quality, as inidcated.    
+
+
+Following the Country Level Analysis for ach country, the original model we were provided with was refined through Ordinary Least Squares (OLS) regression, comparing the original estimated wages to the true OECD benchmark using relevant context-specific variables.
+The results of the regression can be found in the table below:
+| Country        | New Var-Adjusted Estimate MSE | R-squared |
+| -------------- | ----------------------------- | --------- |
+| **Luxembourg** | 0.188                        | 0.738    |
+| **Greece**     | 0.084                         | 0.461    |
+| **Colombia**   | 0.046                         | 0.677    |
+| **Costa Rica** | 0.250                         | 0.913     |
+| **Mexico**     | 0.076                         | 0.702     |
+
+
+The results show a global improvement in model fit after adding explanatory variables. These enhancements reduced the mean squared error (MSE) in each case—particularly in Costa Rica and Colombia, where trade and investment variables showed strong correlation with wage outcomes.
+
+However, we also acknowledge limitations. The regressions were based on approximately 20 years of data, which increases the risk of overfitting, especially given the small sample sizes. Several of the selected variables are highly collinear or trend strongly over time. Future work should incorporate out-of-sample validation or regularization techniques to ensure robustness.
 
 ### Part 2: Convergence Enhancement
 ### Conclusion 
