@@ -20,7 +20,7 @@ All code, data, and visualizations are included in this repository. A video walk
 4. Part 2: Convergence Enhancement
 5. Future recommendations
 6. Credits
-7. References (add where we found the data and link to tables)
+7. References
    
 ## How to Run through the Project
 
@@ -41,7 +41,7 @@ The data we used mostly come from the following sources:
 - or from the [Eurostat](https://ec.europa.eu/eurostat/en/) database.
 
 Exceptionnaly, some additional databases were used in specific cases (e.g. coffee imports data for Colombia), and are referenced in the Drive folder we shared previously.
-The .csv files containing the explanatory variables that we found and used are formated under the name "Variables_[countryname].csv" in the main branch of the repository.
+The .csv files containing the explanatory variables that we found and used are formated under the name "Variables_countryname.csv" in the main branch of the repository.
 
 For the coding part, we have divided the work into 2 code files that you can directly run via the github repository: 
 - [Code for Part 1: Benchmark Estimation](https://github.com/adbertin/salaryConvergence/blob/1922435764739b07a890fd32b49297f4c7131a63/Google_Part1_final.ipynb). 
@@ -52,6 +52,8 @@ Results of Part 1 were stored in this [updated file](https://github.com/adbertin
 Finally, all extra material that you can find on our github repository was provided for us by Noé Notter. 
 
 ### Part 1: Benchmark Estimation
+![Luxembourg]("C:\Users\apoll\OneDrive\Bureau\SMT MA2\ML_ MGT-502\Capture d'écran 2025-05-23 143145.png")
+
 ### Part 2: Convergence Enhancement
 ### Conclusion 
 ### Future recommendations
