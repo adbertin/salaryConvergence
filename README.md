@@ -4,9 +4,9 @@ This project investigates global wage convergence as a lens to better understand
 
 Our analysis is conducted in two parts:
 
-    Part 1 – Benchmark Estimation (OECD countries): We try to improve the fit between estimated and true OECD wages by testing functional enhancements using relevant country-specific variables (e.g., oil revenue in Norway, tourism receipts in Greece).
+- Part 1 – Benchmark Estimation (OECD countries): We try to improve the fit between estimated and true OECD wages by testing functional enhancements using relevant country-specific variables (e.g., oil revenue in Norway, tourism receipts in Greece).
 
-    Part 2 – Convergence Enhancement (Non-OECD countries): We explore deeper drivers of convergence or divergence in selected non-OECD countries by integrating explanatory variables such as conflict exposure, foreign investment, inflation and climate indicators.
+- Part 2 – Convergence Enhancement (Non-OECD countries): We explore deeper drivers of convergence or divergence in selected non-OECD countries by integrating explanatory variables such as conflict exposure, foreign investment, inflation and climate indicators.
 
 Our work involves detailed country-level analysis, model building, and statistical evaluation. We compare our enhanced predictions with Dr. Flow’s original baseline using error metrics such as MSE, and visualize wage convergence trends. The goal is to contribute new insights into the mechanisms driving wage inequality and offer a reproducible methodology for future comparative economic research.
 
