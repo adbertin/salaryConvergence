@@ -1,5 +1,5 @@
 # Salary Convergence
-ML Project - Team Google (Apolline Bertin & Fang-Hsuan Chen)
+Team Google (Apolline Bertin & Fang-Hsuan Chen)
 
 This project investigates global wage convergence as a lens to better understand economic inequality across countries. Building on the work of Dr. Cashmere Flow, we aim to refine his baseline model which estimates wages in Purchasing Power Parity (PPP) terms using historical data—by incorporating additional macroeconomic and institutional variables that may explain why some countries are closing the wage gap with advanced economies, while others are falling behind.
 
