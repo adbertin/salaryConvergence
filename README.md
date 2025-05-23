@@ -67,7 +67,7 @@ The results of the regression can be found in the table below:
 | **Mexico**     | 0.076                         | 0.702     |
 
 
-The results show a global improvement in model fit after adding explanatory variables. These enhancements reduced the mean squared error (MSE) in each case—particularly in Costa Rica and Colombia, where trade and investment variables showed strong correlation with wage outcomes.
+The results show a global improvement in model fit after adding explanatory variables. These enhancements reduced the mean squared error (MSE) in each case, particularly in Costa Rica and Colombia, where trade and investment variables showed strong correlation with wage outcomes.
 
 However, we also acknowledge limitations. The regressions were based on approximately 20 years of data, which increases the risk of overfitting, especially given the small sample sizes. Several of the selected variables are highly collinear or trend strongly over time. Future work should incorporate out-of-sample validation or regularization techniques to ensure robustness.
 
