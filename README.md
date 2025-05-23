@@ -182,7 +182,7 @@ However, we also acknowledge limitations. The regressions were based on approxim
 
 #### Country Level Analyses
 
-#### 1.Central African Republic
+#### 1. Central African Republic
 
 **Step-by-Step Analysis**
 
@@ -196,7 +196,7 @@ Gathering data for the Central African Republic was challenging due to sparse ti
 
 We chose to work with a dummy variable that indicates whether or not a conflict took place in the country in a given year. This variable significantly affected the regression, as it directly impacts political and economic stability. We also tested climate-related variables (e.g. water stress), but found their influence on the results to be limited.
 
-#### 2.Burkina Faso
+#### 2. Burkina Faso
 
 **Step-by-Step Analysis**
 
@@ -211,7 +211,7 @@ Burkina Faso’s data environment presents both strengths and gaps. Some indicat
 We selected precipitation as a climate-related variable with strong ties to the country’s agricultural sector, and by extension, its wage dynamics. The impact of precipitation on wages was more pronounced than other tested indicators like FDI.
 
 
-#### 3.Argentina
+#### 3. Argentina
 
 **Step-by-Step Analysis**
 
@@ -240,7 +240,7 @@ Data collection for Lesotho was limited by the little availability of institutio
 
 For Lesotho, we first tried to use the inflation variable, but we did not see a significant influence on the results. We therefore chose to work with the 'Labor force participation rate’; which gave us more satisfactory results.
 
-#### 5.Azerbaijan
+#### 5. Azerbaijan
 
 **Step-by-Step Analysis**
 
