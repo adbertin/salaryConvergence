@@ -52,7 +52,7 @@ Results of Part 1 were stored in this [updated file](https://github.com/adbertin
 Finally, all extra material that you can find on our github repository was provided for us by Noé Notter. 
 
 ### Part 1: Benchmark Estimation
-![Luxembourg](https://www.luxembourg-city.com/media/2b2a01e8-5e28-4352-8b09-074ea3c2621d/lcto-drone-inet-marc-lazzarini-standart-18.jpg)
+![Luxembourg](https://drive.google.com/file/d/1VxjZL6CVDdMCILiqZa6W1Yem5PlIpWHf/view?usp=drive_link)
 
 ### Part 2: Convergence Enhancement
 ### Conclusion 
