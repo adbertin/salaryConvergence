@@ -267,7 +267,9 @@ For Azerbaijan, we chose to work with a variable that reflected the impact of th
 
 After completing the country-level analysis for our assigned non-OECD basket, the next step is to integrate the selected macroeconomic and institutional variables into a convergence enhancement model. The goal of this phase is to go beyond Dr. Cashmere Flow’s baseline wage estimates and assess how well additional country-specific variables can improve wage prediction accuracy.
 
-We will apply an extended regression framework that includes both the baseline variables (e.g., year, log of previously estimated wage) and selected explanatory factors. The model will be validated against actual OECD wage benchmarks where available.
+In the analysis, five countries (Lesotho, Argentina, Azerbaijan, Burkina Faso, and the Central African Republic) are treated as special cases because additional contextual variables are available. The wage forecasting models for these countries include both time and a country-specific variable as explanatory inputs. Including these variables must meet strict coverage requirements, specifically covering the period from 1991 to 2023. Due to the complexity of handling multivariate inputs in nonlinear models, these countries are modeled exclusively using linear and quadratic regressions, where the structure can accommodate multiple predictors more reliably.
+
+In contrast, all other countries adhere to the original modeling framework, using time as the sole independent variable to predict log-transformed estimated wages. These cases are evaluated using a broader suite of models, allowing for more flexible curve fitting based purely on historical wage trajectories without additional data.
 
 <p align="center">
   <img src="https://github.com/adbertin/salaryConvergence/blob/6b80f24ed12a7b7a2c456d2ddf2b08db875343b6/Part2_Results.png" width="500"/>
