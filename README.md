@@ -27,7 +27,7 @@ All code, data and visualizations are included in this repository. A video walkt
 Everything you need for the project is on this github repository: 
 Github link: [Link](https://github.com/adbertin/salaryConvergence). 
 
-Please follow the link to the video: [Link](https://youtu.be/JGLpjJL7K5s). 
+Please follow the link to the video: [Link](https://youtu.be/ZUA_vm66vlg?si=Uo8XMwyFV0dcycOU). 
 
 For additional information regarding the data we found (e.g. sources), or about our data analysis, please follow the link to our Drive folder: [Link](https://drive.google.com/drive/folders/1rAaQe7x9-qscZJkETNIMwFP33fkr-0br?usp=drive_link).
 
