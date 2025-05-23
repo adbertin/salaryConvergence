@@ -53,7 +53,7 @@ Finally, all extra material that you can find on our github repository was provi
 
 ## Part 1: Benchmark Estimation
 
-In Part 1 of the project, we aimed to improve the baseline model developed by Dr. Cashmere Flow by enhancing the estimation of PPP-adjusted wages using macroeconomic and institutional variables.For this part, we worked on Costa Rica, Colombia, Greece, Mexico, and Luxembourg. We thought of different variables as hypotheses, by performing a country-level analysis for each country of the basket. Before adding our new variables to the existing code, we had to verify that each series ran cleanly from 2000–2020, check its coverage and quality, as indicated. 
+In Part 1 of the project, we aimed to improve the baseline model developed by Dr. Cashmere Flow by enhancing the estimation of hourly-wages using macroeconomic and institutional variables. For this part, we worked on Costa Rica, Colombia, Greece, Mexico, and Luxembourg. We thought of different variables as hypotheses, by performing a country-level analysis for each country of the basket. Before adding our new variables to the existing code, we had to verify that each series ran cleanly from 2000–2020, check its coverage and quality, as indicated. 
 
 ### Country Level Analyses
 
