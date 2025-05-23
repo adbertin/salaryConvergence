@@ -96,6 +96,7 @@ Since our focus is limited to international trade, income inequality, and the mi
 #### 3. Greece
 
 **Step-by-Step Analysis**
+
 **Economic Context:** Greece has undergone substantial economic turbulence over the past two decades. The financial crisis that began in 2009 triggered a prolonged recession, leading to steep wage cuts, public sector contraction and record-high unemployment. Wages in Greece peaked in 2009 (24,005 EUR) but fell sharply, hitting a low in 2014 (18,809 EUR). During this period, the economy shrank by 25%, and unemployment peaked at nearly 28% in 2013. These macroeconomic shocks had a profound impact on wage formation, and their effects lingered into the recovery phase.
 
 From 2018 onward, Greece has entered a period of moderate economic rebound. However, wage levels remain affected by debt burdens, international oversight, and policy limitations. The labor market continues to be shaped by structural reforms enacted under austerity programs, which significantly altered wage-setting mechanisms, especially in the public sector.
@@ -103,6 +104,7 @@ From 2018 onward, Greece has entered a period of moderate economic rebound. Howe
 We explored a set of economic and institutional indicators to supplement the baseline wage model. These included government debt levels, unemployment rates, social protection expenditure, tourism revenue, and exports. Our goal was to capture the unique combination of fiscal, labor, and external drivers influencing wage dynamics in the Greek context.
 
 **Data Collection and Challenges**
+
 Data availability for added variables was a significant constraint. Many candidate variables were either unavailable in continuous annual format, lacked standardized definitions, or were only available in short periods. To maintain a clean and interpretable model, we opted for variables that were relevant, accessible and consistently defined throughout the time range.
 
 **Variable Selection and Impact**
