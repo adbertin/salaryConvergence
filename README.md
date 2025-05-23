@@ -51,11 +51,11 @@ Results of Part 1 were stored in this [updated file](https://github.com/adbertin
 
 Finally, all extra material that you can find on our github repository was provided for us by Noé Notter. 
 
-### Part 1: Benchmark Estimation
+## Part 1: Benchmark Estimation
 
 In Part 1 of the project, we aimed to improve the baseline model developed by Dr. Cashmere Flow by enhancing the estimation of PPP-adjusted wages using macroeconomic and institutional variables.For this part, we worked on Costa Rica, Colombia, Greece, Mexico, and Luxembourg. We thought of different variables as hypotheses, by performing a country-level analysis for each country of the basket. Before adding our new variables to the existing code, we had to verify that each series ran cleanly from 2000–2020, check its coverage and quality, as indicated. 
 
-#### Country Level Analyses
+### Country Level Analyses
 
 #### 1. Costa Rica
 
@@ -161,7 +161,7 @@ We prioritized variables that were both economically meaningful and available ov
 
 These variables, once added to the model, improved wage estimation accuracy significantly. The enhanced model produced closer alignment to the OECD wage benchmark with a lower mean squared error (MSE).
 
-#### Model Enhancement
+### Model Enhancement
 
 Following the Country Level Analysis for ach country, the original model we were provided with was refined through Ordinary Least Squares (OLS) regression, comparing the original estimated wages to the true OECD benchmark using relevant context-specific variables.
 The results of the regression can be found in the table below:
@@ -178,9 +178,9 @@ The results show a global improvement in model fit after adding explanatory vari
 
 However, we also acknowledge limitations. The regressions were based on approximately 20 years of data, which increases the risk of overfitting, especially given the small sample sizes. Several of the selected variables are highly collinear or trend strongly over time. Future work should incorporate out-of-sample validation or regularization techniques to ensure robustness.
 
-### Part 2: Convergence Enhancement
+## Part 2: Convergence Enhancement
 
-#### Country Level Analyses
+### Country Level Analyses
 
 #### 1. Central African Republic
 
@@ -255,14 +255,13 @@ Despite better institutional capacity than some of its regional peers, Azerbaija
 For Azerbaijan, we chose to work with a variable that reflected the impact of the climate risks on the country’s economy. We therefore chose the “Agriculture, forestry, and fishing, value added (% of GDP)” as a proxy for water stress, and we witnessed an improvement in the model.
 
 
-#### Coding the Convergence Enhancement Model
+### Coding the Convergence Enhancement Model
 
 After completing the country-level analysis for our assigned non-OECD basket, the next step is to integrate the selected macroeconomic and institutional variables into a convergence enhancement model. The goal of this phase is to go beyond Dr. Cashmere Flow’s baseline wage estimates and assess how well additional country-specific variables can improve wage prediction accuracy.
 
 We will apply an extended regression framework that includes both the baseline variables (e.g., year, log of previously estimated wage) and selected explanatory factors. The model will be validated against actual OECD wage benchmarks where available.
 
-### Conclusion 
-### Future recommendations
+## Future recommendations
 ## Credits
 
 We would like to thank Mr. Noé Notter for his work and guidance during this project. We also would like to thank Mr. Michalis Vlachos, our teacher, for his classes.
