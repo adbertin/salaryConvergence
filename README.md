@@ -1,8 +1,8 @@
 # Salary Convergence
 Project Description
-ML Project - Team Google
+ML Project - Team Google (Apolline Bertin & Fang-Hsuan Chen)
 ## Table of Contents
-1. blabla
+1. [Installation](#installation)
 2. blabla
 3. blabla
 ## How to Install and Run the Project
