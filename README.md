@@ -56,6 +56,9 @@ Finally, all extra material that you can find on our github repository was provi
 ### Conclusion 
 ### Future recommendations
 ## Credits
+
+We would like to thank Mr. Noé Notter for his work and guidance during this project. We also would like to thank Mr. Michalis Vlachos, our teacher, for his classes.
+
 ## References
 * [Silva, A. R. C., Pavez, L. R. D., & Martínez-Zarzoso, I. (2023). The impact of migration on wages in Costa Rica. *Migration Studies*, 11(1), 23–51.](https://doi.org/10.1093/migration/mnac041)
 * [Garita, J. (2021). Minimum wages and firm dynamics: evidence from Costa Rica’s Occupation-Based System.](https://jggarita.github.io/files/MW_firmdynamics.pdf)
