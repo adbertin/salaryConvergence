@@ -53,8 +53,102 @@ Finally, all extra material that you can find on our github repository was provi
 
 ### Part 1: Benchmark Estimation
 
-In Part 1 of the project, we aimed to improve the baseline model developed by Dr. Cashmere Flow by enhancing the estimation of PPP-adjusted wages using macroeconomic and institutional variables.For this part, we worked on Costa Rica, Colombia, Greece, Mexico, and Luxembourg. We thought of different variables as hypotheses, by performing a country-level analysis for each country of the basket. Before adding our new variables to the existing code, we had to verify that each series ran cleanly from 2000–2020, check its coverage and quality, as indicated.    
+In Part 1 of the project, we aimed to improve the baseline model developed by Dr. Cashmere Flow by enhancing the estimation of PPP-adjusted wages using macroeconomic and institutional variables.For this part, we worked on Costa Rica, Colombia, Greece, Mexico, and Luxembourg. We thought of different variables as hypotheses, by performing a country-level analysis for each country of the basket. Before adding our new variables to the existing code, we had to verify that each series ran cleanly from 2000–2020, check its coverage and quality, as indicated. 
 
+#### Country Level Analyses
+
+#### 1.Costa Rica
+
+**Step-by-Step Analysis**
+Costa Rica's economy is primarily driven by agriculture, tourism, technology and IT services, customer service operations, and manufacturing. Its stable political environment and steady economic performance continue to attract immigrants, mainly from neighboring countries. Although empirical evidence shows that immigration has had no significant short-term effect on wages for either native workers or previously settled migrants, the increasing presence of migrant labor is contributing to shifts within the labor market. Native workers gradually move into roles emphasizing communication and interpersonal skills, while firms are adopting more technology-intensive and skill-oriented production processes. These adjustments suggest that, while wages have remained relatively stable in the short term, immigration may catalyze structural transformations that could influence wage dynamics over time.
+
+Another notable feature of Costa Rica's labor market is its tiered minimum wage system, which categorizes workers into eight groups based on their education and experience levels. Research indicates that this framework contributes to a dual labor market structure, where the formal, higher-wage sector is more sensitive to policy changes. In particular, increases in the minimum wage can deter the formation of new firms within the formal sector, potentially resulting in adverse, longer-term impacts on aggregate employment.
+
+**Data Collection and Challenges**
+One of the key variables identified (the number of immigrants) suffers from data limitations, including incompleteness and inconsistency across sources. Additionally, no official dataset is available for Costa Rica's tiered minimum wage system. To address this gap, we included educational attainment as a proxy to capture wage-related dynamics. Throughout the data collection process, we aimed to ensure that each core category in our analysis included at least one variable with consistent coverage over the 20-year research period. At the same time, we were careful not to overinterpret findings from the literature or introduce loosely related variables when direct and relevant data were unavailable.
+
+**Variable Selection and Impact**
+
+* **Air Passenger Volume:** Reflects the level of economic connectivity and tourism activity, where higher volumes can drive up demand for service-sector jobs and support wage growth.
+* **Net Tourism Flow Ratio:** Indicates whether Costa Rica is a net tourism destination. Higher ratios suggest increased foreign spending that can boost employment and wages in tourism-related industries.
+* **Value Added per Agricultural Worker:** Measures productivity in agriculture, where improvements may lead to higher rural wages and reduce overall wage disparities across sectors.
+
+#### 2.Mexico
+
+**Step-by-Step Analysis**
+Mexico has long faced a widening income gap, and unlike in other countries with similar trends, this growing inequality has been accompanied by a decline in average wages over the long term. Trade liberalization and foreign direct investment (FDI) have been major contributors to rising income inequality. In addition, declining unionization rates and other institutional changes in the labor market have exacerbated wage disparities. Given that education tends to reduce inequality, and real-world data show a downward pressure on average wages, we exclude educational expansion as a primary explanatory factor.
+
+Although the mining industry accounts for only about 2% of Mexico's GDP, the country is the world's largest producer of silver and a major global supplier of gold, copper, and zinc. Fluctuations in metal prices can have significant macroeconomic impacts. Therefore, it is reasonable to assume that movements in the precious metals market may partially influence wages in Mexico, particularly in regions or sectors linked to mining activity.
+
+**Data Collection and Challenges**
+Since our focus is limited to international trade, income inequality, and the mining industry, data from 2000 to 2020 is relatively accessible. The main challenge lies in selecting the most relevant variables, as multiple indicators can reflect our focused area. Additionally, we faced limitations in data acquisition due to restricted access to specific high-quality datasets, particularly those measuring trade openness, which often require paid subscriptions or memberships.
+
+**Variable Selection and Impact**
+
+* **Unionization Rate**: Represents the proportion of the workforce affiliated with trade unions. A lower rate suggests weaker collective bargaining power, often linked to greater wage inequality.
+* **Income Share - Top 10%**: Measures the pre-tax income held by the wealthiest 10% of the population. A rising share indicates increasing income concentration at the top.
+* **Income Share - Bottom 50%**: Captures the pre-tax income that the lower half of the population earns. A declining share reflects growing income inequality.
+* **Mining Sector GDP (Local Currency)**: Tracks the economic output of the mining sector using domestic currency to avoid exchange rate distortions. This allows a more straightforward analysis of the sector's direct impact on national wages.
+
+#### 3.Greece
+
+**Step-by-Step Analysis**
+**Economic Context:** Greece has undergone substantial economic turbulence over the past two decades. The financial crisis that began in 2009 triggered a prolonged recession, leading to steep wage cuts, public sector contraction and record-high unemployment. Wages in Greece peaked in 2009 (24,005 EUR) but fell sharply, hitting a low in 2014 (18,809 EUR). During this period, the economy shrank by 25%, and unemployment peaked at nearly 28% in 2013. These macroeconomic shocks had a profound impact on wage formation, and their effects lingered into the recovery phase.
+
+From 2018 onward, Greece has entered a period of moderate economic rebound. However, wage levels remain affected by debt burdens, international oversight, and policy limitations. The labor market continues to be shaped by structural reforms enacted under austerity programs, which significantly altered wage-setting mechanisms, especially in the public sector.
+
+We explored a set of economic and institutional indicators to supplement the baseline wage model. These included government debt levels, unemployment rates, social protection expenditure, tourism revenue, and exports. Our goal was to capture the unique combination of fiscal, labor, and external drivers influencing wage dynamics in the Greek context.
+
+**Data Collection and Challenges**
+Data availability for added variables was a significant constraint. Many candidate variables were either unavailable in continuous annual format, lacked standardized definitions, or were only available in short periods. To maintain a clean and interpretable model, we opted for variables that were relevant, accessible and consistently defined throughout the time range.
+
+**Variable Selection and Impact**
+
+* **Government Debt:** Included due to its structural role in wage suppression, especially in the public sector.
+* **Tourism Spending:** Used as a proxy for external demand and service sector income.
+* **Unemployment Rate:** Reflects labor market slack and wage bargaining power.
+
+**Reflections and Commentary**
+While the regression’s predictive accuracy improved, many of the selected variables are time-trending and likely correlated, raising the risk of overfitting. Still, the combination of unemployment, tourism, and fiscal stress reflects the core pressures that shaped Greece’s wage patterns post-crisis.
+
+#### 4.Colombia
+
+**Step-by-Step Analysis**
+Informal Employment Levels: Colombia’s labor market is characterized by persistently high levels of informality, particularly outside of agriculture. This has major implications for wage measurement, as informal workers often earn less, lack job protection, and are underrepresented in official wage statistics.
+
+Real Exchange Rates and Terms of Trade: Colombia’s economy is highly sensitive to changes in its real exchange rate and ToT, due to its reliance on commodity exports. When ToT improves (i.e. when export prices rise relative to imports), it boosts national income and, in turn, wages.
+
+Exports: Wages in Colombia are closely tied to external demand. The country’s top exports (crude petroleum, coal, coffee, and gold) make it vulnerable to global price swings. Coffee remains a key wage-linked sector in rural areas.
+
+Unemployment Rates: Colombia’s high structural unemployment (NAIRU: 9–11%) dampens wage growth even during periods of economic expansion.
+
+**Data Collection and Challenges**
+A key challenge was reconstructing the missing annual average wage data for 2000–2004. This required interpreting visual survey data and estimating values using reported working hours. Several potential explanatory variables were dropped due to limited annual availability.
+
+**Variable Selection and Impact**
+
+* **Foreign Direct Investment (FDI)**
+* **Goods Exports**
+* **Coffee Exports**
+
+#### 4.Luxembourg
+
+**Step-by-Step Analysis**
+Luxembourg’s economic model is shaped by financial intermediation and favorable tax policy, with a majority of foreign investment flowing through holding companies. While these entities contribute modestly to employment, they are significant to GDP and tax revenue.
+
+From a supply-side perspective, Luxembourg’s wage formation is influenced by consumer prices, labor taxes, and broader fiscal dynamics. We selected macro-institutional indicators that reflect this context: tax revenue, inflation, net migration, and female political representation.
+
+**Data Collection and Challenges**
+While Luxembourg’s data is generally high-quality, gaps exist for financial sector specifics. We prioritized long-term and interpretable indicators that capture structural characteristics of the labor market.
+
+**Variable Selection and Impact**
+
+* **Tax Revenue (as % of GDP)**
+* **Harmonized Index of Consumer Prices**
+* **Net Migration**
+* **Women’s Representation in Parliament**
+
+#### Model Enhancement
 
 Following the Country Level Analysis for ach country, the original model we were provided with was refined through Ordinary Least Squares (OLS) regression, comparing the original estimated wages to the true OECD benchmark using relevant context-specific variables.
 The results of the regression can be found in the table below:
