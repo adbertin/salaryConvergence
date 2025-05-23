@@ -165,13 +165,15 @@ These variables, once added to the model, improved wage estimation accuracy sign
 
 Following the Country Level Analysis for ach country, the original model we were provided with was refined through Ordinary Least Squares (OLS) regression, comparing the original estimated wages to the true OECD benchmark using relevant context-specific variables.
 The results of the regression can be found in the table below:
-| Country        | New Var-Adjusted Estimate MSE | R-squared |
-| -------------- | ----------------------------- | --------- |
-| **Luxembourg** | 0.188                        | 0.738    |
-| **Greece**     | 0.084                         | 0.461    |
-| **Colombia**   | 0.046                         | 0.677    |
-| **Costa Rica** | 0.250                         | 0.913     |
-| **Mexico**     | 0.076                         | 0.702     |
+
+| Country     | Old Estimate MSE | New Var-Adjusted Estimate MSE | R-squared (New Model) |
+|-------------|------------------|-------------------------------|----------------|
+| **Luxembourg**  | 1229.191| 0.188                        | 0.738    |
+| **Greece**      | 15.773 | 0.084                         | 0.461    |
+| **Colombia**    |60.499 | 0.046                         | 0.677    |
+| **Costa Rica**  | 21.126| 0.250                         | 0.913     |
+| **Mexico**     | 10.383 | 0.076                         | 0.702     |
+
 
 
 The results show a global improvement in model fit after adding explanatory variables. These enhancements reduced the mean squared error (MSE) in each case, particularly in Costa Rica and Luxembourg, where trade and investment variables showed strong correlation with wage outcomes.
