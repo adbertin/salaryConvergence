@@ -2,6 +2,9 @@
 Project Description
 ML Project - Team Google
 ## Table of Contents
+1. blabla
+2. blabla
+3. blabla
 ## How to Install and Run the Project
 ## How to Use the Project
 ### Part 1
