@@ -24,8 +24,7 @@ All code, data and visualizations are included in this repository. A video walkt
    
 ## How to Run through the Project
 
-Everything you need for the project is on this github repository: 
-Github link: [Link](https://github.com/adbertin/salaryConvergence). 
+Everything you need for the project is on this github repository:[Link](https://github.com/adbertin/salaryConvergence). 
 
 Please follow the link to the video: [Link](https://youtu.be/ZUA_vm66vlg?si=Uo8XMwyFV0dcycOU). 
 
