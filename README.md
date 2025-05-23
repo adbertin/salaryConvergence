@@ -15,8 +15,13 @@ All code, data, and visualizations are included in this repository. A video walk
 
 ## Table of Contents
 1. [How to Run through the Project](#HowtoRunthroughtheProject)
-2. blabla
-3. blabla
+2. [How to Use the Project](#HowtoUsetheProject)
+3. [Part 1]
+4. Part 2
+5. Future recommendations
+6. Credits
+7. References (add where we found the data and link to tables)
+   
 ## How to Run through the Project
 
 Everything you need for the project is on this github repository: 
@@ -33,4 +38,3 @@ For additional information (e.g. sources) regarding the data we found, please fo
 ### Future recommendations
 ## Credits
 ## References (add where we found the data and link to tables)
-## Add a License
