@@ -14,10 +14,18 @@ Our work involves detailed country-level analysis, model building, and statistic
 All code, data, and visualizations are included in this repository. A video walkthrough of our approach is available here (link to be added). 
 
 ## Table of Contents
-1. [Installation](#installation)
+1. [How to Run through the Project](#HowtoRunthroughtheProject)
 2. blabla
 3. blabla
-## How to Install and Run the Project
+## How to Run through the Project
+
+Everything you need for the project is on this github repository: 
+Github link: [Link](https://github.com/adbertin/salaryConvergence). 
+
+Please follow the link to the video: [Link](https://youtu.be/JGLpjJL7K5s). 
+
+For additional information (e.g. sources) regarding the data we found, please follow the link to our Drive folder: [Link](https://drive.google.com/drive/folders/1rAaQe7x9-qscZJkETNIMwFP33fkr-0br?usp=drive_link).
+
 ## How to Use the Project
 ### Part 1
 ### Part 2
