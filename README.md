@@ -271,10 +271,13 @@ In the analysis, five countries (Lesotho, Argentina, Azerbaijan, Burkina Faso, a
 
 In contrast, all other countries adhere to the original modeling framework, using time as the sole independent variable to predict log-transformed estimated wages. These cases are evaluated using a broader suite of models, allowing for more flexible curve fitting based purely on historical wage trajectories without additional data.
 
+The graph below illustrates the performance of our enhanced convergence models across the five non-OECD countries. While the inclusion of macroeconomic and institutional variables provided promising results in select cases (e.g., Argentina, Azerbaijan), the overall outcomes were mixed. It is important to highlight that the integration of additional variables did not consistently improve convergence accuracy. In some instances, such as Lesotho, the enhanced model performed worse than the baseline, diverging from the benchmark rather than approaching it. These inconsistencies underscore a key point: while some context related variables can offer valuable explanatory power, their inclusion must be rigorously validated.
+
 <p align="center">
   <img src="https://github.com/adbertin/salaryConvergence/blob/6b80f24ed12a7b7a2c456d2ddf2b08db875343b6/Part2_Results.png" width="500"/>
 </p>
 
+To conclude on this part, the convergence enhancement framework shows strong potential, but future work should maybe place emphasis on variable selection, multicollinearity checks and robustness testing. The quality and relevance of additional data will ultimately determine the model's effectiveness in improving wage prediction and understanding convergence dynamics.
 
 ## Future recommendations
 Based on our country-level analysis, several context-specific variables demonstrate strong potential to enhance wage estimation and improve the accuracy of wage convergence forecasts. As demonstrated in the analysis, incorporating additional country-specific variables can enrich the model's explanatory power and offer more nuanced insights into wage dynamics. Expanding this approach to include additional relevant variables for other countries could further strengthen predictive performance.
