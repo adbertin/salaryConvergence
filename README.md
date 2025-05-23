@@ -277,6 +277,10 @@ In contrast, all other countries adhere to the original modeling framework, usin
 
 
 ## Future recommendations
+Based on our country-level analysis, several context-specific variables demonstrate strong potential to enhance wage estimation and improve the accuracy of wage convergence forecasts. As demonstrated in the analysis, incorporating additional country-specific variables can enrich the model's explanatory power and offer more nuanced insights into wage dynamics. Expanding this approach to include additional relevant variables for other countries could further strengthen predictive performance.
+
+However, it's important to note that the inclusion of additional variables in our current implementation did not consistently lead to improved convergence outcomes. In fact, for some cases (such as Lesotho), the revised model diverged more from the benchmark than moving closer to it. While the approach has high potential, selecting and integrating additional variables must be carefully validated to ensure they contribute meaningfully to forecasting objectives.
+
 ## Credits
 
 We would like to thank Mr. Noé Notter for his work and guidance during this project. We also would like to thank Mr. Michalis Vlachos, our teacher, for his classes.
