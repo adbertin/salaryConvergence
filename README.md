@@ -60,10 +60,12 @@ In Part 1 of the project, we aimed to improve the baseline model developed by Dr
 #### 1. Costa Rica
 
 **Step-by-Step Analysis**
+
 Costa Rica's economy is primarily driven by agriculture, tourism, technology and IT services, customer service operations, and manufacturing. Its stable political environment and steady economic performance continue to attract immigrants, mainly from neighboring countries. Although empirical evidence shows that immigration has had no significant short-term effect on wages for either native workers or previously settled migrants, the increasing presence of migrant labor is contributing to shifts within the labor market. Native workers gradually move into roles emphasizing communication and interpersonal skills, while firms are adopting more technology-intensive and skill-oriented production processes (Silva et al., 2023). These adjustments suggest that, while wages have remained relatively stable in the short term, immigration may catalyze structural transformations that could influence wage dynamics over time.
 Another notable feature of Costa Rica's labor market is its tiered minimum wage system, which categorizes workers into eight groups based on their education and experience levels (Garita, 2021). Research indicates that this framework contributes to a dual labor market structure, where the formal, higher-wage sector is more sensitive to policy changes (Gindling et al., 2005). In particular, increases in the minimum wage can deter the formation of new firms within the formal sector, potentially resulting in adverse, longer-term impacts on aggregate employment (Garita, 2021).
 
 **Data Collection and Challenges**
+
 One of the key variables identified (the number of immigrants) suffers from data limitations, including incompleteness and inconsistency across sources. Additionally, no official dataset is available for Costa Rica's tiered minimum wage system. To address this gap, we included educational attainment as a proxy to capture wage-related dynamics. Throughout the data collection process, we aimed to ensure that each core category in our analysis included at least one variable with consistent coverage over the 20-year research period. At the same time, we were careful not to overinterpret findings from the literature or introduce loosely related variables when direct and relevant data were unavailable.
 
 **Variable Selection and Impact**
@@ -75,11 +77,13 @@ One of the key variables identified (the number of immigrants) suffers from data
 #### 2. Mexico
 
 **Step-by-Step Analysis**
+
 Mexico has long faced a widening income gap, and unlike in other countries with similar trends, this growing inequality has been accompanied by a decline in average wages over the long term. According to Cortez (2001) and Robertson (2007), trade liberalization and foreign direct investment (FDI) have been major contributors to rising income inequality. In addition, declining unionization rates and other institutional changes in the labor market have exacerbated wage disparities. Given that education tends to reduce inequality, and real-world data show a downward pressure on average wages, we exclude educational expansion as a primary explanatory factor.
 
 Although the mining industry accounts for only about 2% of Mexico's GDP, the country is the world's largest producer of silver and a major global supplier of gold, copper, and zinc. As noted by Arezki and Matsumoto (2017), fluctuations in metal prices can have significant macroeconomic impacts. Therefore, it is reasonable to assume that movements in the precious metals market may partially influence wages in Mexico, particularly in regions or sectors linked to mining activity.
 
 **Data Collection and Challenges**
+
 Since our focus is limited to international trade, income inequality, and the mining industry, data from 2000 to 2020 is relatively accessible. The main challenge lies in selecting the most relevant variables, as multiple indicators can reflect our focused area. Additionally, we faced limitations in data acquisition due to restricted access to specific high-quality datasets, particularly those measuring trade openness, which often require paid subscriptions or memberships.
 
 **Variable Selection and Impact**
@@ -110,6 +114,7 @@ Data availability for added variables was a significant constraint. Many candida
 #### 4. Colombia
 
 **Step-by-Step Analysis**
+
 Informal Employment Levels: Colombia’s labor market is characterized by persistently high levels of informality, particularly outside of agriculture. This has major implications for wage measurement, as informal workers often earn less, lack job protection, and are underrepresented in official wage statistics.
 
 Real Exchange Rates and Terms of Trade: Colombia’s economy is highly sensitive to changes in its real exchange rate and ToT, due to its reliance on commodity exports. When ToT improves (i.e. when export prices rise relative to imports), it boosts national income and, in turn, wages.
@@ -119,6 +124,7 @@ Exports: Wages in Colombia are closely tied to external demand. The country’s 
 Unemployment Rates: Colombia’s high structural unemployment (NAIRU: 9–11%) dampens wage growth even during periods of economic expansion.
 
 **Data Collection and Challenges**
+
 The first challenge we faced was to find the missing data for the annual average wage in Colombia between 2000 and 2004, included. We computed the missing values by finding the Real hourly wage in Colombia for 2000-2004 from a Continuous Household Survey, DANE, period 2000-2004, and we multiplied it by the number of Working Hours from the data set we were provided with. We had to read the hourly wage on a graph, which makes the data approximative, and we had to use a different calculation method than the one that was used on  the OECD data website, which can bias the data, and with it, the results.
 Data availability for added variables was also a significant constraint. Many candidate variables (e.g., gasoline index, terms of trade, informal sector breakdowns, or real exchange rates) were either unavailable in continuous annual format, lacked standardized definitions, or were only available in short periods.
 To maintain a clean and interpretable model, we opted for variables that were relevant, accessible and consistently defined throughout the time range. 
@@ -134,11 +140,13 @@ Once integrated into the regression, these three variables significantly improve
 #### 5. Luxembourg
 
 **Step-by-Step Analysis**
+
 Luxembourg’s economic model is heavily shaped by its role as a global financial hub and by generous foreign investment inflows. Around 95% of foreign direct investment in Luxembourg passes through holding or intra-group financing entities. Although their direct contribution to employment and production is modest, they generate approximately 3% of GDP in tax revenue and support high-skill, high-wage jobs in finance and legal services. This inflow of capital and related fiscal policy measures is deeply intertwined with wage structures.
 From a supply-side perspective, Luxembourg’s wage formation is affected by a combination of employer labor taxes, employee income taxes, indirect taxation (such as VAT), and consumer price inflation. 
 To adapt the wage estimation model to this unique context, we explored a range of variables that capture tax structure, price inflation, financial sector performance and labor market composition. After evaluating data availability, correlation, and interpretability, we selected four macro-institutional indicators to enhance the baseline wage model: tax revenue, Harmonized Index of Consumer Prices, net migration, and proportion of seats held by women in parliament.
 
 **Data Collection and Challenges**
+
 Luxembourg provides high-quality macroeconomic data, but some fiscal and financial sector indicators were not fully harmonized or available in annual time series formats. Certain indicators relevant to financial services (like net interest income or intra-group investment flows) were omitted due to complexity or incomplete time coverage.
 We prioritized variables that were both economically meaningful and available over a sufficiently long period (2000–2020). Gender representation in politics was included as a proxy for institutional inclusiveness and policy evolution.
 
