@@ -37,7 +37,7 @@ The data we used mostly come from the following sources:
 - it was either already provided in the folder we were given to work on this project,
 - from the [Our World in Data](https://ourworldindata.org/) website,
 - from the [World Bank Group](https://www.worldbank.org/ext/en/home) database,
-- from the [Statisa](https://www.statista.com/) dataset,
+- from the [Statista](https://www.statista.com/) dataset,
 - or from the [Eurostat](https://ec.europa.eu/eurostat/en/) database.
 
 Exceptionnaly, some additional databases were used in specific cases (e.g. coffee imports data for Colombia), and are referenced in the Drive folder we shared previously.
