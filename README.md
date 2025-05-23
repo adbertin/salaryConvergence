@@ -1,3 +1,12 @@
 # Salary Convergence
+Project Description
 ML Project - Team Google
-## Part 1
+## Table of Contents
+## How to Install and Run the Project
+## How to Use the Project
+### Part 1
+### Part 2
+### Conclusion 
+### Future recommendations
+## Credits
+## Add a License
