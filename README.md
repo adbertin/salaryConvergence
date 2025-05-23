@@ -11,7 +11,7 @@ Our analysis is conducted in two parts:
 
 Our work involves detailed country-level analysis, model building, and statistical evaluation. We compare our enhanced predictions with Dr. Flow’s original baseline using error metrics such as MSE, and visualize wage convergence trends. The goal is to contribute new insights into the mechanisms driving wage inequality and offer a reproducible methodology for future comparative economic research.
 
-All code, data, and visualizations are included in this repository. A video walkthrough of our approach is available here (link to be added). 
+All code, data, and visualizations are included in this repository. A video walkthrough of our approach is available below. 
 
 ## Table of Contents
 1. How to Run through the Project
