@@ -179,6 +179,88 @@ The results show a global improvement in model fit after adding explanatory vari
 However, we also acknowledge limitations. The regressions were based on approximately 20 years of data, which increases the risk of overfitting, especially given the small sample sizes. Several of the selected variables are highly collinear or trend strongly over time. Future work should incorporate out-of-sample validation or regularization techniques to ensure robustness.
 
 ### Part 2: Convergence Enhancement
+
+#### Country Level Analyses
+
+#### 1.Central African Republic
+
+**Step-by-Step Analysis**
+
+The Central African Republic faces profound structural barriers to wage development due to ongoing security concerns, political instability, and persistent humanitarian crises. Our initial review focused on identifying macro and institutional-level indicators that capture the fragile state of the economy. Inflation was a key candidate, as it erodes real income in a context where price volatility is frequent and wage indexation is weak. We also considered the role of armed conflict and water-related environmental stress, given their importance to economic stability and agricultural livelihoods. Aspects such as conflict type and military personnel percentages serve as proxies for national stability, while environmental variables like annual precipitation and water stress relate to climate change, and with it, agricultural productivity, a major wage source in rural areas.
+
+**Data Collection and Challenges**
+
+Gathering data for the Central African Republic was challenging due to sparse time-series coverage (for the period 1993–2023) and the country’s limited statistical infrastructure. While many macroeconomic datasets exist, few are consistently reported for the entire study period. Key wage-relevant indicators, like employment structure, government social spending, or sector-specific wages, were either missing or non-standardized. We ultimately retained variables with reliable and long-term availability: inflation (consumer prices), armed forces employment share, conflict type, FDI inflows, water stress, and precipitation. Although these variables are broad, they capture the systemic pressures on income and employment in a fragile, agriculture-based economy.
+
+**Variable Selection and Impact**
+
+We chose to work with a dummy variable that indicates whether or not a conflict took place in the country in a given year. This variable significantly affected the regression, as it directly impacts political and economic stability. We also tested climate-related variables (e.g. water stress), but found their influence on the results to be limited.
+
+#### 2.Burkina Faso
+
+**Step-by-Step Analysis**
+
+Burkina Faso’s economic development and wage patterns are shaped by competing forces: strong agricultural and service-sector growth on one hand, and instability from terrorism, climate shocks, and political volatility on the other. Our analysis began by identifying key drivers of wage formation in this dual environment. Inflation and security were immediate considerations, but we also incorporated indicators of climate vulnerability, such as water stress and precipitation levels, as agriculture remains a primary employer. Additionally, FDI and military personnel shares were considered to assess the effects of external investment and internal instability on economic opportunity and labor income.
+
+**Data Collection and Challenges**
+
+Burkina Faso’s data environment presents both strengths and gaps. Some indicators, like FDI, inflation, and armed forces employment, were readily available from international databases. However, social and institutional indicators such as sectoral wage data, conflict intensity, or social protection were either missing or not granular enough. Climate variables posed challenges in consistency, though we were able to source annual precipitation and water stress figures for the full period. Ultimately, a limited dataset was constructed, focused on inflation, conflict presence, water access, and external capital flows, suitable proxies for understanding wage evolution in this particular context.
+
+**Variable Selection and Impact**
+
+We selected precipitation as a climate-related variable with strong ties to the country’s agricultural sector, and by extension, its wage dynamics. The impact of precipitation on wages was more pronounced than other tested indicators like FDI.
+
+
+#### 3.Argentina
+
+**Step-by-Step Analysis**
+
+Argentina’s wage dynamics have been driven by persistent macroeconomic instability, marked by inflation volatility, debt restructuring, and recessionary cycles. Our wage modeling began with an emphasis on disinflation trends and monetary stability, as these directly impact real wage growth and consumer purchasing power. We also considered structural drivers of growth and employment, such as participation in the labor force and the contribution of agriculture and mining to GDP. FDI and oil rents were included to reflect sectoral investment and natural resource dependence, while political stability served as an institutional factor that influences investor confidence and economic planning.
+
+**Data Collection and Challenges**
+
+Argentina has a comparatively rich data environment, with access to detailed macroeconomic indicators and sectoral breakdowns. Nevertheless, harmonizing data across institutions and over long time periods posed challenges, potentially due to changes in measurement practices during economic crises. Political variables were also challenging to standardize, though we found annual estimates for political stability through global governance indicators. Ultimately, we retained variables with full coverage and policy relevance: inflation (GDP deflator), FDI inflows, oil rents, agricultural share of GDP, political stability, and labor force participation, that hopefully reflect Argentina’s structure.
+
+**Variable Selection and Impact**
+
+We selected inflation (GDP deflator) as the most explanatory variable for Argentina, given its high macroeconomic salience and direct relationship with purchasing power and wage erosion.
+
+
+#### 4. Lesotho
+
+**Step-by-Step Analysis**
+
+Lesotho’s wages and labor dynamics are shaped by structural dependence on South Africa, frequent political turnover and vulnerability to environmental shocks. In developing a wage model, we focused on indicators tied to Lesotho’s economic volatility and employment trends. Inflation was a starting point given its influence on real income. Given Lesotho’s exposure to drought and climate volatility, we included measures of freshwater resources per capita. Labor force participation was used to track employment trends over time, and FDI served as a proxy for external capital inflows supporting domestic production and wages.
+
+**Data Collection and Challenges**
+
+Data collection for Lesotho was limited by the little availability of institutional variables and high-resolution employment data. In particular, access to sectoral data on mining, manufacturing, or trade dependence with South Africa was sparse. Social indicators such as social transfers or household consumption were also difficult to obtain. However, we were able to compile a reliable panel with FDI, GDP deflator inflation, water availability, and labor participation, all of which are broadly relevant to the country’s wage environment. These selections allowed us to capture both macroeconomic forces and climate-linked stressors influencing household income.
+
+**Variable Selection and Impact**
+
+For Lesotho, we first tried to use the inflation variable, but we did not see a significant influence on the results. We therefore chose to work with the 'Labor force participation rate’; which gave us more satisfactory results.
+
+#### 5.Azerbaijan
+
+**Step-by-Step Analysis**
+
+Azerbaijan’s labor and wage trends are undergoing a structural transition from a hydrocarbon-dependent economy to a more diversified one. The government’s recent “Enhancing Social Welfare” decree and minimum wage reforms were important contextual factors in our analysis. We began by identifying indicators tied to fiscal and sectoral transformation: oil rents and fuel exports reflect the traditional resource base, while employment ratios and agricultural value added capture diversification. Inflation and FDI were included to reflect broader economic conditions, and we also monitored conflict-related impacts via annual death statistics.
+
+**Data Collection and Challenges**
+
+Despite better institutional capacity than some of its regional peers, Azerbaijan presented some unique data challenges. Social policy impacts (like welfare expansion) were not directly quantifiable in time-series format. Similarly, gender and regional wage disaggregation were not available. However, macroeconomic variables, including inflation, oil rents, fuel exports, FDI and employment ratios, were consistently reported and suitable for long-term analysis. We focused on variables that linked sectoral transformation and wage outcomes, creating a framework that could assess both past petroleum-led wage structures and future wage potential in the non-oil economy.
+
+**Variable Selection and Impact**
+
+For Azerbaijan, we chose to work with a variable that reflected the impact of the climate risks on the country’s economy. We therefore chose the “Agriculture, forestry, and fishing, value added (% of GDP)” as a proxy for water stress, and we witnessed an improvement in the model.
+
+
+#### Coding the Convergence Enhancement Model
+
+After completing the country-level analysis for our assigned non-OECD basket, the next step is to integrate the selected macroeconomic and institutional variables into a convergence enhancement model. The goal of this phase is to go beyond Dr. Cashmere Flow’s baseline wage estimates and assess how well additional country-specific variables can improve wage prediction accuracy.
+
+We will apply an extended regression framework that includes both the baseline variables (e.g., year, log of previously estimated wage) and selected explanatory factors. The model will be validated against actual OECD wage benchmarks where available.
+
 ### Conclusion 
 ### Future recommendations
 ## Credits
