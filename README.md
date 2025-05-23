@@ -16,8 +16,8 @@ All code, data, and visualizations are included in this repository. A video walk
 ## Table of Contents
 1. How to Run through the Project
 2. How to Use the Project
-3. Part 1
-4. Part 2
+3. Part 1: Benchmark Estimation
+4. Part 2: Convergence Enhancement
 5. Future recommendations
 6. Credits
 7. References (add where we found the data and link to tables)
@@ -32,8 +32,27 @@ Please follow the link to the video: [Link](https://youtu.be/JGLpjJL7K5s).
 For additional information regarding the data we found (e.g. sources), or about our data analysis, please follow the link to our Drive folder: [Link](https://drive.google.com/drive/folders/1rAaQe7x9-qscZJkETNIMwFP33fkr-0br?usp=drive_link).
 
 ## How to Use the Project
-### Part 1
-### Part 2
+
+The data we used mostly come from the following sources:
+- it was either already provided in the folder we were given to work on this project,
+- from the [Our World in Data](https://ourworldindata.org/) website,
+- from the [World Bank Group](https://www.worldbank.org/ext/en/home) database,
+- from the [Statisa](https://www.statista.com/) dataset,
+- or from the [Eurostat](https://ec.europa.eu/eurostat/en/) database.
+
+Exceptionnaly, some additional databases were used in specific cases (e.g. coffee imports data for Colombia), and are referenced in the Drive folder we shared previously.
+The .csv files containing the explanatory variables that we found and used are formated under the name "Variables_[countryname].csv" in the main branch of the repository.
+
+For the coding part, we have divided the work into 2 code files that you can directly run via the github repository: 
+- [Code for Part 1: Benchmark Estimation](https://github.com/adbertin/salaryConvergence/blob/1922435764739b07a890fd32b49297f4c7131a63/Google_Part1_final.ipynb). 
+- [Code for Part 2: Convergence Enhancement](https://github.com/adbertin/salaryConvergence/blob/1922435764739b07a890fd32b49297f4c7131a63/Google_Part2_final.ipynb).
+
+Results of Part 1 were stored in this [updated file](https://github.com/adbertin/salaryConvergence/blob/1922435764739b07a890fd32b49297f4c7131a63/Countries_Wages_Estimates_Finals_GOOD_new.csv), and used in Part 2 of our research.
+
+Finally, all extra material that you can find on our github repository was provided for us by Noé Notter. 
+
+### Part 1: Benchmark Estimation
+### Part 2: Convergence Enhancement
 ### Conclusion 
 ### Future recommendations
 ## Credits
