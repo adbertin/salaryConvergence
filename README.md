@@ -270,7 +270,7 @@ After completing the country-level analysis for our assigned non-OECD basket, th
 We will apply an extended regression framework that includes both the baseline variables (e.g., year, log of previously estimated wage) and selected explanatory factors. The model will be validated against actual OECD wage benchmarks where available.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/your-repo/main/ImgReadme/image.png" width="500"/>
+  <img src="https://github.com/adbertin/salaryConvergence/blob/1bff49c9cc45370e860468d5b35b3daee39b21ee/Part2_Results.png" width="500"/>
 </p>
 
 
