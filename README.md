@@ -52,7 +52,7 @@ Results of Part 1 were stored in this [updated file](https://github.com/adbertin
 Finally, all extra material that you can find on our github repository was provided for us by Noé Notter. 
 
 ### Part 1: Benchmark Estimation
-![Luxembourg]("C:\Users\apoll\OneDrive\Bureau\SMT MA2\ML_ MGT-502\Capture d'écran 2025-05-23 143145.png")
+![Luxembourg](C:\Users\apoll\OneDrive\Bureau\SMT MA2\ML_ MGT-502\Capture d'écran 2025-05-23 143145.png)
 
 ### Part 2: Convergence Enhancement
 ### Conclusion 
